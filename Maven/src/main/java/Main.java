@@ -10,13 +10,13 @@ public class Main {
 
        File file = new File("data.txt");
         System.out.println("Song by OneRepublic - Counting Stars \n-TEXT-\n------------------------------");
-        WordsCount.readTxt(file);
+        main.java.WordsCount.readTxt(file);
         System.out.println("---------------------------------------");
-        WordsCount.linesArray(file);
-        System.out.println("There are " + WordsCount.linesArray(file).size() + " words in you text file.");
-        WordsCount.wordCounterList(WordsCount.linesArray(file));
+        main.java.WordsCount.linesArray(file);
+        System.out.println("There are " + main.java.WordsCount.linesArray(file).size() + " words in you text file.");
+        main.java.WordsCount.wordCounterList(main.java.WordsCount.linesArray(file));
         System.out.println("=============================================");
-        WordsCount.repeatWords(WordsCount.linesArray(file));
+        main.java.WordsCount.repeatWords(main.java.WordsCount.linesArray(file));
 
     }
 
