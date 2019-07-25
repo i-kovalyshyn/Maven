@@ -37,7 +37,7 @@ class WordsCount {
         }
         int wordsException = lines.size() - smallWords.size();
         System.out.println("There are " + smallWords.size() + " words less than 3 char;");
-        System.out.println("So we have " + wordsException + " words after exception.");
+        System.out.println("So we have " + wordsException + " words after the exclusion.");
         System.out.println("List with words < 3 letters is: ");
         System.out.println(smallWords);
     }
